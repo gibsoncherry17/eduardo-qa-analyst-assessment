@@ -6,11 +6,11 @@ Created on Tue Oct 14 14:03:09 2025
 @author: chedm
 """
 
-def remove_duplicates(s):           #Create new function remove_duplicates()
-    new_list = []                   #Define empty list called new_list
-    for d in s:                     #Use for loop to iterate through each num in s
+def remove_duplicates(s):           
+    new_list = []                #Define empty list called new_list
+    for d in s:                  #Use for loop to iterate through each num in s
        if d not in new_list:
-            new_list.append(d)      #If d is already in new_list, it's a duplicate and won't be added
+            new_list.append(d)   #If d is not in new_list, it'll be added, otherwise it's a duplicate and won't be added
     return new_list
 
 

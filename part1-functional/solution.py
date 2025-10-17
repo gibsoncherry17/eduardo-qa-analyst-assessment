@@ -8,21 +8,21 @@ Created on Tue Oct 14 14:03:09 2025
 
 def remove_duplicates(s):           
     new_list = []                #Define empty list called new_list
-    for d in s:                  #Use for loop to iterate through each num in s
+    for d in s:                  #Use for loop to iterate through each number in s
        if d not in new_list:
-            new_list.append(d)   #If d is not in new_list, it'll be added, otherwise it's a duplicate and won't be added
-    return new_list
+            new_list.append(d)   #If d is not in new_list, it'll be added, otherwise it'll be ignored
+    return new_list            
 
-
+#The three example lists
 f = [1, 2, 3, 2, 4, 1, 5]
 g = [1, 1, 1]
 h = []
-i = [30, 56, 76, 68, 30, 69, 100, 100]
 
+#This is where to test the function for each of the 3 example lists 
 print(remove_duplicates(f))
 print(remove_duplicates(g))
 print(remove_duplicates(h))
-print(remove_duplicates(i))
+
 
 
 

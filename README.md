@@ -9,7 +9,7 @@ This is my QA Analyst two-part coding assessment.
 
 ## Part 1: Functional Programming
 - **Time Spent:** ~30 minutes
-- **Approach:** I creates a function called remove_duplicates() that iterates through each element of the input list and builds a new list (new_list) by appending only the elements that haven’t been added before. This ensures that the first occurrence of each element is kept while all subsequent duplicates are ignored, preserving the original order.
+- **Approach:** I created a function called remove_duplicates() that iterates through each element of the input list and builds a new list (new_list) by appending only the elements that haven’t been added before. This ensures that the first occurrence of each element is kept while all subsequent duplicates are ignored, preserving the original order.
 
 ## Part 2: API Testing  
 - **Time Spent:** ~30 minutes
